@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativelayout"
+     >
+    
+    <TextView
+        android:id="@+id/tvtext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="小考试"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+    
+<TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#666666"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/tvtext"
+        />
+    
+    <ImageView 
+        android:id="@+id/iv_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:src="@drawable/andr_news_picdots"
+        android:layout_below="@+id/tvtext"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
